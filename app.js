@@ -15,7 +15,8 @@ let questionCounter = 0;
 
 
 for(let i = numberOfQuestion; i>0; i--){
-questionArray.push(prompt(` You still have to replace : ${numberOfQuestion} words, Enter a verb", "Enter a noun`));
+questionArray.push(prompt(` You still have to replace : ${i} words, Enter a verb", "Enter a noun`));
+console.log(questionArray[questionCounter]);
 questionCounter++;
 }
 
