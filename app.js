@@ -8,7 +8,7 @@ The monster became Otto the blacksmith. Otto was the strongest man in town. But 
 Munch-munch, chomp-chomp, gobble-gobble, gulp. The hungry monster ate Otto from the inside. He went back to being a monster without a name.`;
 
 let userInputs =[];
-
+let numberOfQuestion = 18;
 
 let modifiedStory = `Once upon a time, in a land far away, there lived a nameless ${userInputs[]}. The monster was dying to have a ${userInputs[]}. So he decided to set out on a journey to find his ${userInputs[]}.
 But the world was a large ${userInputs[]}, so the monster split into two on his journey. One monster went to the ${userInputs[]}. And the other went to the ${userInputs[]}. The monster who went ${userInputs[]} came to a village. "Mr. Blacksmith, please give me your ${userInputs[]}."
