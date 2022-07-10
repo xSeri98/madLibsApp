@@ -16,6 +16,7 @@ let questionCounter = 0;
 
 for(let i = numberOfQuestion; i>0; i--){
 questionArray.push(prompt(` You still have to replace : ${numberOfQuestion} words, Enter a verb", "Enter a noun`));
+questionCounter++;
 }
 
 let modifiedStory = `Once upon a time, in a land far away, there lived a nameless ${userInputs[0]}. The monster was dying to have a ${userInputs[1]}. So he decided to set out on a journey to find his ${userInputs[2]}.
