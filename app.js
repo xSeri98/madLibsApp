@@ -9,14 +9,33 @@ The monster became Otto the blacksmith. Otto was the strongest man in town. But 
 Munch-munch, chomp-chomp, gobble-gobble, gulp. The hungry monster ate Otto from the inside. He went back to being a monster without a name.`;
 
 let userInputs =[];
-let questionArray = [];
 let numberOfQuestion = 18;
 let questionCounter = 0;
+let questionArray = [
+    `Please Enter a  noun/verb`,
+    `Please Enter a  object/anything`,
+    `Please Enter a  object/anything`,
+    `Please Enter a noun/verb`,
+    `Please Enter a place/noun`,
+    `Please Enter a place/noun`,
+    `Please Enter a synonym of "mad"`,
+    `Please Enter the identity of a human being)`,
+    `Please Enter  most imporant thing to a human being`,
+    `Please Enter most imporant thing to a human being`,
+    `Please Enter  an adjective`,
+    `Please Enter an adjective`,
+    `Please Enter four letter word`,
+    `Please Enter place/body part`,
+    `Please Enter a noun`,
+    `Please Enter scary being`,
+    `Please Enter a body part`,
+    `Please Enter the first thing your parent gave to you`
+  ];
 
 
 for(let i = numberOfQuestion; i>0; i--){
-userInputs.push(questionArray[questionCounter] = prompt(` You still have to replace : ${i} words, Enter a verb", "Enter a noun`));
-console.log(questionArray[questionCounter] + `; (${i-1} questions left)`);
+console.log(questionArray[questionCounter] + `; (${i} questions left)`);    
+userInputs.push(prompt(` You still have to replace : ${i} words \n ${questionArray[questionCounter]}`));
 questionCounter++;
 }
 let modifiedStory = `<h2 id="SprintProject"><mark>Once upon a time, in a land far away, there lived a nameless ${userInputs[0]}. The monster was dying to have a ${userInputs[1]}. So he decided to set out on a journey to find his ${userInputs[2]}.</h2>
@@ -33,7 +52,7 @@ alert("Your Awesome and Crazy Story is now ready ! I hope you are too 😂");
 
 
 
-console.log(originalStory);
+console.log(modifiedStory);
 document.write(modifiedStory);
 
 //console.log(originalStory);
